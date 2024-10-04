@@ -1,0 +1,52 @@
+body{
+    background-image: url("dog.jpeg");
+    background-size: contain;
+    font-family: 'open sans','Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 500vh;
+}
+
+.container {
+    background: rgb(177, 211, 227) ;
+    max-width: 50%;
+    margin : auto;
+    border : 5px solid black;
+    border-radius: 50px; 
+}
+
+h1 {
+    color: darkblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: palevioletred;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 600px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkblue;
+}
+
+#save-btn {
+    background: green;
+}
+
+#save-el {
+    font-weight: bold;
+
+}
